@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Survey Form </title>
+    <link rel="stylesheet" href="greenForm.css">
+</head>
+<body>
+
+    <h1> Camping Survey form </h1>
+
+    <form id="back-form">
+
+    <div class="name-form"> 
+        <label class="label-name"> Name </label>
+        <br>
+        <input placeholder="Enter your name" class="input-name" type="text">
+    </div>
+
+    <div class="email-form">
+        <label class="label-email"> Email </label>
+        <br>
+        <input placeholder="Enter your email" class="input-email" type="email">
+    </div>
+
+    <div class="age-form">
+        <label class="label-email"> Age </label>
+        <br>
+        <input placeholder="Enter your age" class="input-email" type="text">
+    </div>
+
+    <div class="select-form">  
+        <label class="label-select" > Which option best descripe you? </label>
+        <br>
+        <select class="select-select">
+            <option value="Student">Student</option>
+        </select>
+    </div>
+
+    
+
+<div class="radio-form">
+        <label class="label-radio"> Would you recommed Mohamed to a friend? </label>
+        <br>
+    <input id="recommed1" type="radio" name="recommed" value="yes">
+        <label for="recommed1"> Yes </label>
+        <br>
+    <input id="recommed2" type="radio" name="recommed" value="no">
+        <label for="recommed2"> No </label>
+        <br>
+    <input id="recommed3" type="radio" name="recommed" value="maybe">
+        <label for="recommed3"> Maybe </label>
+
+ </div>
+    <div class="checkbox-form">
+        <label class="label-checkbox"> Languages and Frameworks Known <small>(ckeck all that apply)</small> </label>
+        <br>
+        <label for="inp-1">
+            <input type="checkbox"
+                name="inp">C</input></label>
+                <br>
+        <label for="inp-2">
+            <input type="checkbox"
+                name="inp">C++</input></label>
+                <br>
+
+        <label for="inp-3">
+            <input type="checkbox"
+                name="inp">C#</input></label>
+                <br>
+
+        <label for="inp-4">
+            <input type="checkbox"
+                name="inp">Java</input></label>
+                <br>
+
+        <label for="inp-5">
+            <input type="checkbox"
+                name="inp">Python</input></label>
+                <br>
+
+        <label for="inp-6">
+            <input type="checkbox"
+                name="inp">JavaScript</input></label>
+                <br>
+
+        <label for="inp-7">
+            <input type="checkbox"
+                name="inp">React</input></label>
+                <br>
+
+        <label for="inp-7">
+            <input type="checkbox"
+                name="inp">Angular</input></label>
+                <br>
+
+        <label for="inp-7">
+            <input type="checkbox"
+                name="inp">Django</input></label>
+                <br>
+
+        <label for="inp-7">
+            <input type="checkbox"
+                name="inp">Spring</input></label>
+    </div>
+    <div class="textarea-form">
+        <label for="id_textarea"> Any comments or suggestions </label>
+        <textarea id="id_textarea" class="textarea-textarea" ></textarea>
+    </div>
+
+    <button type="submit" value="submit"> Submit </button>
+  </form>
+</body>
+</html>

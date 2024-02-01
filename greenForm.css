@@ -1,0 +1,70 @@
+
+body{
+    background-color: #5EC38F;
+}
+
+h1{
+    color: #0a0f0c;
+    margin-top: 0%;
+    text-align: center;
+}
+
+#back-form{
+    background-color: #fff;
+    width: 500px;
+    margin: 50px auto;
+    padding: 30px 30px;
+    box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.5);
+}
+
+.name-form,
+.email-form,
+.age-form,
+.select-form,
+.radio-form,
+.checkbox-form,
+.textarea-form{
+    font-family: 'Franklin Gothic Medium';
+    position: relative;
+    right: 10px;
+    font-size: 18px;
+}
+
+.input-name,
+.input-email,
+.input-age,
+.textarea-textarea{
+    width: 102%;
+    height: 30px;
+    margin-top: 7px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-family: Lucida Grande;
+}
+
+.select-select{
+    width: 90%;
+    height: 35px;
+    margin-top: 7px;
+    margin-bottom: 25px;
+    font-size: 17px;
+    font-family: Lucida Grande;
+}
+
+.checkbox-form,
+.textarea-form{
+    margin-top: 7px;
+}
+.textarea-textarea{
+    height: 60px;
+}
+
+button{
+    background-color: rgb(102,211,101);
+    width: 95%;
+    height: 30px;
+    font-family: cursive;
+    font-size: larger;
+    margin-top: 30px;
+}
+
